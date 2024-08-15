@@ -1,0 +1,277 @@
+/* RESET */
+body{
+    background-color: rgb(46, 46, 46);    
+    margin:0
+}
+
+.background-container {
+    background-image: url("https://help.nflxext.com/43e0db2f-fea0-4308-bfb9-09f2a88f6ee4_what_is_netflix_1_en.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: fit-content; /* Set height of the container */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    padding: 10px;
+    margin-left:125px;
+    margin-right:125px;
+   margin-bottom: 200px;
+   height:fit-content;
+
+}
+.container1 {
+    padding: 0px;
+    height:fit-content;
+    margin-top: 10px;
+    padding-left: 125px;
+}
+
+.container2 {
+    padding: 0px;
+    height:350px;
+    margin-top: 10px;
+    padding-left: 125px;
+}
+
+.rpadd{
+    padding-right:150px;
+}
+
+.lpadd{
+    padding-left:150px;
+}
+
+.img_left{
+    float:left;
+    
+}
+
+.center{
+    text-align: center;
+}
+
+.img_right{
+    float:right;
+      
+}
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    
+}
+h1,h2,h3,h4{
+    font-family:Arial, Helvetica, sans-serif;  
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+h3{
+    font-size:25px ;
+    font-weight: 10;
+}
+.bgblack{
+    background-color: black;
+}
+.bgwhite{
+    background-color: white;
+}
+.textwhite{
+    color: white;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+}
+
+.textwhite2{
+    color: white;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+}
+
+.textblack{
+    color: rgb(0, 0, 0);
+    
+}
+
+
+
+.paddingsmall{
+    padding: 10px;
+}
+
+.paddinglarge{
+    padding: 35px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 0;
+    text-align: left;
+    margin-left: 50px;
+ 
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-right: 30px;
+    display: flex;
+}
+
+nav ul li {
+   margin-right: 40px;
+   padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: small;
+    padding-top: 10px;
+   
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    
+}
+
+.block{
+    width:500px;
+}
+
+.block2{
+    float:right;
+    width:450px;
+    margin-right:175px;
+    margin-top: 50px;
+}
+.block2_5{
+    float:right;
+    width:450px;
+    margin-right:175px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.block3{
+    float:left;
+    width:700px;
+    margin-top: 50px;
+}
+
+.block4{
+    float:right;
+    width:700px;
+    margin-top: 50px;
+}
+
+form {
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+label {
+    font-family:Arial, Helvetica, sans-serif ;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+    width: 100%; /* Ensure label takes full width */
+    text-align: center; 
+    font-size: 20px;
+    font-weight: 400;
+}
+
+input[type="text"] {
+    font-size:x-large;
+    width: 370px;
+    padding: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color:rgba(255, 255, 255, 0.135);
+}
+
+input[type="text"]:focus {
+    border-color: #ffffff;
+    outline: none;
+    border:3px solid white;
+}
+
+input[type="submit"] {
+    margin-left: 5px;
+    font-size: x-large;
+    color: white;
+    background-color:rgb(255, 0, 0) ;
+    width:200px;
+    padding:16px;
+    box-sizing:border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+   
+}
+
+.logoimg {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    background-color: transparent;
+
+}
+
+.button-container {
+    justify-content:left;
+    
+}
+.centered-button {
+    background-color: #000000; 
+    border: none; /* Remove border */
+    color: rgb(255, 255, 255); /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline-block */
+    height:45px;
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    width:150px;
+    margin-left: 156px;
+    justify-content: center;
+}
+
+.centered-button:hover {
+    background-color: #b3b3b3; /* Darker green on hover */
+    
+    border: 0.05em solid #000000;
+}
+
+.gif-container {
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
